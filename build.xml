@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_xatlas</Name>
+		<SourceRoot>source</SourceRoot>
+		<ExportedIncludeDirectory>source</ExportedIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>
+			xatlas\xatlas.cpp
+		</ThirdPartySourceFile>
+	</StaticLibrary>
+
+</Module>
