@@ -148,7 +148,7 @@ namespace bgfx { namespace webgpu
 		ShaderHandle m_handle;
 		String m_label;
 
-		wgpu::ShaderStage m_stage;
+		wgpu::ShaderExportType m_stage;
 		wgpu::ShaderModule m_module;
 
 		uint32_t* m_code = NULL;
