@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <Build>
-	<Module name="ThirdPartyXAtlas" type="thirdparty">
+	<Module name="ThirdParty" type="thirdparty">
 		<StaticLibrary>
-			<Name>thirdparty_xatlas</Name>
+			<Name>ThirdParty.XAtlas</Name>
 			<SourceRoot>source</SourceRoot>
 			<ExportedIncludeDirectory>source</ExportedIncludeDirectory>
 			<ThirdParty>true</ThirdParty>
